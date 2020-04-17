@@ -13,7 +13,9 @@ Usage: .\\timetable.py /arg value /arg value /arg value ...
         /end:                    ...                end time.
 
 Example: timetable.py /in UC2F1908SE /mod dmtd /date 01
-Output:  ~~~      CT015-3-2-DMTD-T-2     ~~~
+
+Output:  
+~~~      CT015-3-2-DMTD-T-2     ~~~
         Intake: UC2F1908SE
         Lecture Name: CENSORED
         Module Code: CT015-3-2-DMTD-T-2
