@@ -1,10 +1,12 @@
 import requests
 import sys
 
-#this functions returns arguments
-#separated by spaces provided by user
+#this functions returns 
+#a dictionary of arguments
+#provided by user
 #when opened from command line
 #or when using the interactive console
+
 def sysargs(sysargv, argsdictionary):
     sysarg = [sys.upper() for sys in sysargv]
     if sysarg[0] == '/?' or sysarg[0] == '/help':
@@ -22,9 +24,10 @@ def argsdictionary():
    return list([["/IN","/MOD","/LEC","/DAY","/DATE","/ST","/ET","/LOC"],["INTAKE","MODID","NAME","DAY","DATESTAMP","TIME_FROM","TIME_TO","LOCATION"]])
 
 #main function
+#if no arguments provided, it will be an interactive console.
 
 def main():
-    if (len(sys.argv)) < 2:
+    if (len(sys.argv)) < 2: 
         try:
             help()
             print("Enter commands without 'timetable.py'.")
@@ -84,7 +87,7 @@ def formatter(list):
 #will be called upon
 #no arguments provided or
 #arguments such as /? or /help provided
-#then exits the application
+
 def help():
     print('''
 Asia Pacific University Timetable Command Line Interface v1.0
