@@ -1,6 +1,6 @@
 # cruzzed-apu-timetable-cli
 Asia Pacific University Timetable Command Line Interface v1.0
-Usage: .\\timetable.py /arg value /arg value /arg value
+Usage: .\\timetable.py /arg value /arg value /arg value ...
 
         /? or /help: Show help page and exits.
         /in: Used to search a schedule based on the intake.
