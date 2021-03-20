@@ -1,5 +1,6 @@
 # cruzzed-apu-timetable-cli
 Asia Pacific University Timetable Command Line Interface v1.0
+Depends: 'requests' or 'pip install requests'
 
 Usage: .\\timetable.py /arg value /arg value /arg value ...
 
